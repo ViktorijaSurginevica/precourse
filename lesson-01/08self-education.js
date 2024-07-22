@@ -5,3 +5,6 @@ names = "Джон";
 admin = names;
 
 alert(admin); // "Джон"
+
+let earthName;
+let currentUserName;
