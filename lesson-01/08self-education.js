@@ -8,3 +8,4 @@ alert(admin); // "Джон"
 
 let earthName;
 let currentUserName;
+let world [air, sun, moon];
