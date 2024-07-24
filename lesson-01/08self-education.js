@@ -1,11 +1,4 @@
-let admin, name; // можно объявить две переменные через запятую
-
-names = "Джон";
-
-admin = names;
-
-alert(admin); // "Джон"
-
-let earthName;
-let currentUserName;
-let world [air, sun, moon];
+<Script>
+  alert("Wassup"); alert("Привет"); alert("Bye"); alert(Пока);
+  alert(Programmer); alert(Программист); alert(Финиш) ;
+</Script>;
