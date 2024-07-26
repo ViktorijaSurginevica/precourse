@@ -43,12 +43,12 @@
         correctAnswersCount = correctAnswersCount + 1;
       }
 
-      if (true) {
-        alert (finishSuccessMessage);
+      minCorrectAnswersPercent = 50;
+
+      if ((correctAnswersCount / wordsCount) * 100 > minCorrectAnswersPercent) {
+        alert(finishSuccessMessage);
       } else {
-        alert {
-          (finishUnSuccessMessage);
-        }
+        alert(finishUnSuccessMessage);
       }
 
       alert(finishMessage);
