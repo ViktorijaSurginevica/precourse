@@ -43,9 +43,10 @@
         correctAnswersCount = correctAnswersCount + 1;
       }
 
-      minCorrectAnswersPercent = 50;
+      let minCorrectAnswersPercent = 50;
+      let UserCorrectAnswerPercent = (correctAnswersCount / wordsCount) * 100;
 
-      if ((correctAnswersCount / wordsCount) * 100 > minCorrectAnswersPercent) {
+      if (UserCorrectAnswerPercent > minCorrectAnswersPercent) {
         alert(finishSuccessMessage);
       } else {
         alert(finishUnSuccessMessage);
