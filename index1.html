@@ -20,18 +20,36 @@
 
       let wordsCount = 3;
 
-      let finishMessage = "Молодец";
+      let finishSuccessMessage = "Молодец";
+      let finishUnSuccessMessage = "Молодец, но постарайся лучше!";
 
       let correctAnswersCount = 0;
 
       let userAnswer0 = prompt(word0);
       alert(userAnswer0 === word0translation);
+      if (userAnswer0 === word0translation) {
+        correctAnswersCount = correctAnswersCount + 1;
+      }
 
       let userAnswer1 = prompt(word1);
       alert(userAnswer1 === word1translation);
+      if (userAnswer1 === word1translation) {
+        correctAnswersCount = correctAnswersCount + 1;
+      }
 
       let userAnswer2 = prompt(word2);
       alert(userAnswer2 === word2translation);
+      if (userAnswer2 === word2translation) {
+        correctAnswersCount = correctAnswersCount + 1;
+      }
+
+      if (true) {
+        alert (finishSuccessMessage);
+      } else {
+        alert {
+          (finishUnSuccessMessage);
+        }
+      }
 
       alert(finishMessage);
     </script>
