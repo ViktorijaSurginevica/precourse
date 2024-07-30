@@ -1,8 +1,9 @@
 // code
 ​const colors = ["синий", "черный", "зеленый", "красный", "желтый", "зеленый"];
 
-function createColorString() {
-    return colors.filter(color => color === "черный" || "красный" || color === "желтый").join('-');
+function createColorString()  {
+    let germaFlag = colors.filter ( function(color) { return color === "черный"  color === "красный"  color === "желтый";    });
+    return germaFlag.join('-');
 }
 
 console.log(createColorString());
