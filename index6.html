@@ -7,9 +7,12 @@
   </head>
   <body>
     <script>
-      const quantity = "12";
-      console.log(typeof Number(quantity));
-      console.log(quantity);
+      const quarterOf = (month) => {
+        if (month < 4) return 1;
+        if (month < 7) return 2;
+        if (month < 10) return 3;
+        return 4;
+      };
     </script>
   </body>
 </html>
