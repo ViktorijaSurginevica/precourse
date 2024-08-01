@@ -14,5 +14,6 @@ let passportMarried = {
   },
 };
 passportMarried.married = true;
-console.log(passporNottMarried);
+
 console.log(passportMarried);
+console.log(passportMarried2);
