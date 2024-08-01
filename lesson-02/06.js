@@ -1,8 +1,12 @@
-const giveMeRightNumbers = (value1, value2, maximum) => {
-  if (value1 === value2 || value1 <= maximum) {
-    console.log("Success!");
-  } else {
-    console.log("Something wrong!");
-  }
+let passportWithAddress = {
+  name: "Petr",
+  surname: "Petrov",
+  address: {
+    country: "USA",
+    city: "LA",
+  },
 };
-giveMeRightNumbers(100, 200, 0);
+const copied = structuredClone(passportWithAddress);
+copied.address.city = "Bobryisk";
+console.log(passportWithAddress.address.city);
+console.log(copied.address.city);
